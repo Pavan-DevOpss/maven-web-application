@@ -10,25 +10,9 @@
 </head>
 <body>
 <h1 align="center">Welcome to Pavan Technologies Pvt Ltd. Ph No: +91-9154658651  ,Bengaluru,Karnataka.</h1>
-<h1 align="center"> Pavan Technologies- Very Good Training center for DevOps with AWS,Python & AWS Solution Architect in Bangalore India.Teaching Real Time scnerios</h1>
+<h1 align="center"> Pavan Technologies- Very Good Training center for DevOps with Python ,Azure & AWS Solution Architect in Bangalore India.Teaching Real Time scnerios</h1>
 <hr>
-<br>
-	<h1><h3> Server Side IP Address </h3><br>
 
-<% 
-String ip = "";
-InetAddress inetAddress = InetAddress.getLocalHost();
-ip = inetAddress.getHostAddress();
-out.println("Server Host Name :: "+inetAddress.getHostName()); 
-%>
-<br>
-<%out.println("Server IP Address :: "+ip);%>
-</h1>
-<br>
-<h1><h3> Client Side IP Address </h3><br>
-<%out.print( "Client IP Address :: " + request.getRemoteAddr() ); %><br>
-<%out.print( "Client Name Host :: "+ request.getRemoteHost() );%><br></h1>
-<hr>
 <div style="text-align: center;">
 	<span>
 		<img src="images/mithunlogo.jpg" alt="" width="100">
